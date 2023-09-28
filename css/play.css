@@ -1,0 +1,90 @@
+body {
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: auto;
+}
+.body {
+  position: relative;
+  padding: 40px 0 0 0;
+}
+.bg {
+  background-image: url(/img/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.body .container {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 625px;
+  transition: all 0.5s ease-out;
+  padding: 0;
+}
+.navbar {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(43, 33, 88);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+.navbar-menu {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  cursor: default;
+}
+.navbar-menu li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: "Silkscreen", cursive;
+}
+.navbar-menu li a {
+  text-decoration: none;
+  color: #e4dede;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-menu li a:hover {
+  color: #9709aa;
+  border-bottom: 3px solid #9709aa;
+  padding-bottom: 5.5px;
+}
+.navbar-menu li .active:hover {
+  text-decoration: none;
+}
+.navbar-menu li .active {
+  color: #9709aa;
+  border-bottom: 3px solid #9709aa;
+  padding-bottom: 5.5px;
+}
+.contacts {
+    padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  cursor: default;
+}
+p {
+  font-family: "Pixelify Sans", cursive;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+h1 {
+    color: #9709aa;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  font-family: "Silkscreen", cursive;
+}
